@@ -1,0 +1,76 @@
+.dash-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: steelblue;
+    padding: 60px 0;
+}
+.dash-container h1{
+    background-color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    text-align: center;
+}
+.run-task{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+.run-task .task-form{
+    height: auto;
+    width: 600px;
+    background-color: rgb(177, 235, 250);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.task-form h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.task-form input{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.task-form select{
+    height: 35px;
+    border:none;
+    border-radius: 5px;
+}
+.task-form button{
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius:5px ;
+    font-size: 17px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.task-table table{
+    width: 500px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.task-table table th{
+    background-color: blue;
+    color:white;
+    padding: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.task-table table td{
+    background-color: white;
+    color:black;
+    padding: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
